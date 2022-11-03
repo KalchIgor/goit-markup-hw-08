@@ -1,0 +1,21 @@
+.container {
+    max-width: 1200px;
+    padding-left: 15px; 
+    padding-right: 15px; 
+    align-items: center;
+    @extend %margin-auto;
+}
+
+.section {
+    margin-top: 94px;
+}  
+
+.active {
+    display: inline-block;
+}
+
+.img-block {
+    display: block;
+    border-radius: 0px;
+    margin-bottom: 30px;
+}

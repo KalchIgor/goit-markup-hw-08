@@ -1,0 +1,95 @@
+
+  /* Modal */
+
+  .backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .backdrop.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .modal {
+    position: absolute;
+    width: 528px;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    transition: transform 250ms;
+    border-radius: 4px;
+    background: var(--main-sir-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+ 
+.modal-close {
+    position: absolute;
+    @extend %flex ; 
+    width: 30px;
+    height: 30px;
+    right: 8px;
+    top: 8px;
+    padding: 0;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    background-color: transparent;
+    transition: /*fill*/ 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    &:hover {
+       fill: var(--main-one-color);
+  } 
+}
+
+.footer-div__mail , .footer-input__mail {
+    display: flex;
+    align-items: center;
+    width: 358px;
+    height: 50px;
+    border: 0px;
+    border: 1px  solid var(--main-sir-color);
+   /* drop-shadow:(0px 4px 4px rgba(0, 0, 0, 0.15));*/
+    border-radius: 4px;
+    padding-left: 16px;
+    color:  rgba(255, 255, 255, 0.6);
+    background-color: var(--main-fa-color);
+}
+.footer-batton {
+    display: flex;
+    gap: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.25;
+    color: var(--main-sir-color);
+
+}
+.button-footer__text{
+  @extend %flex ;  
+  padding: 0px;
+  border: 0px;
+  padding-left: 28px;
+  padding-right: 28px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--main-sir-color);
+  background-color: var(--main-btn-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px; 
+  letter-spacing: 0.06em; 
+}
+.svg-send {
+    margin-left: 10px;
+ 
+}
