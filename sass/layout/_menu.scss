@@ -9,8 +9,20 @@
 
     &__link {
         @extend %flex; }
- 
+    & { 
+   
+    @media screen  and (max-width: 1199px) {
+        
+    margin-bottom: 60px; 
+            }
+    @media screen  and (min-width: 1200px) {
+
+    margin-bottom: 94px;  
+            }
+            }
 }
+
+
 
 .menu-list__item {
     @extend %flex ;  

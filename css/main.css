@@ -277,6 +277,11 @@ summary {
   margin-right: auto;
 }
 
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 body {
   font-family: "Roboto", "Times New Roman", sans-serif;
 }
@@ -328,14 +333,33 @@ ul {
 }
 
 .container {
-  max-width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
   align-items: center;
 }
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
 
-.section {
-  margin-top: 94px;
+@media screen and (max-width: 767px) {
+  .section {
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section {
+    margin-top: 94px;
+  }
 }
 
 .active {
@@ -822,17 +846,34 @@ a.logo.active.logo-activ {
   margin: -1px;
 }
 
-.section-tehnology__item {
-  width: 270px;
-  /* flex-basis: calc((100% - 30px*3)/4);*/
+@media screen and (max-width: 767px) {
+  .section-tehnology__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 
-.section-list__tehnology {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: left;
-  -moz-column-gap: 30px;
-       column-gap: 30px;
+@media screen and (min-width: 768px) {
+  .section-tehnology__item {
+    width: calc((100% - 60px) / 2);
+    /* flex-basis: calc((100% - 30px*3)/4);*/
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-tehnology__item {
+    width: calc((100% - 120px) / 4);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section-list__tehnology {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+  }
 }
 
 .section-item__wraper {
@@ -860,6 +901,12 @@ a.logo.active.logo-activ {
 .section-tehnology__svg {
   width: 70px;
   height: 70px;
+}
+
+@media screen and (max-width: 1199px) {
+  .revievs {
+    display: none;
+  }
 }
 
 .section-foto__list {
@@ -1031,6 +1078,17 @@ a.logo.active.logo-activ {
        column-gap: 30px;
   margin-bottom: 94px;
 }
+@media screen and (max-width: 1199px) {
+  .menu-list {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .menu-list {
+    margin-bottom: 94px;
+  }
+}
+
 .menu-list__item {
   width: 170px;
   height: 92px;

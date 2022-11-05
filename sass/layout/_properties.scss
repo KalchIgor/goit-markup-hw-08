@@ -11,20 +11,31 @@
     clip-path: inset(50%);
     margin: -1px;
 }
+.section-tehnology__item:not(:last-child) { @media screen and (max-width: 767px) {
+    margin-bottom: 30px;}
+}
 
-.section-tehnology__item
+.section-tehnology__item { @media screen and (min-width: 768px)
 {
-    width: 270px; 
-  /* flex-basis: calc((100% - 30px*3)/4);*/
+    width:  calc((100% - 15px * 4) / 2);
+ /* flex-basis: calc((100% - 30px*3)/4);*/
+    column-gap: 30px;
+}
+@media screen  and (min-width: 1200px) {
+
+    width:  calc((100% - 15px * 8) / 4);
+}
 }
 
-.section-list__tehnology {
+.section-list__tehnology { @media screen and (min-width: 768px) {
     display: flex; 
-   flex-wrap: wrap;
-    text-align:left; 
-    column-gap: 30px;
-   
+    flex-wrap: wrap;
+     text-align:left; 
+     column-gap: 30px;
+    
+ }
 }
+
 
 .section-item__wraper {
     border-radius: 4px;
