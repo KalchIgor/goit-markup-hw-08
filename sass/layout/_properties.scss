@@ -12,6 +12,7 @@
     margin: -1px;
 }
 .section-tehnology__item:not(:last-child) { @media screen and (max-width: 767px) {
+
     margin-bottom: 30px;}
 }
 
@@ -25,6 +26,9 @@
 
     width:  calc((100% - 15px * 8) / 4);
 }
+    & { @media screen and (max-width: 767px) {
+        @extend %margin-auto ;
+    }}
 }
 
 .section-list__tehnology { @media screen and (min-width: 768px) {
