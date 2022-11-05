@@ -980,9 +980,13 @@ a.logo.active.logo-activ {
 }
 
 .section-frend__list {
-  display: flex;
-  justify-content: space-around;
   margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .section-frend__list {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 .section-frend {
