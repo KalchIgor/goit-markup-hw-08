@@ -865,6 +865,11 @@ a.logo.active.logo-activ {
     width: calc((100% - 120px) / 4);
   }
 }
+@media screen and (max-width: 767px) {
+  .section-tehnology__item {
+    width: 100%;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .section-list__tehnology {
@@ -882,6 +887,11 @@ a.logo.active.logo-activ {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
+}
+@media screen and (max-width: 767px) {
+  .section-item__wraper {
+    width: 100%;
+  }
 }
 
 .section-tehnology__headline {

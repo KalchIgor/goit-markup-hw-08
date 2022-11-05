@@ -48,6 +48,9 @@
     height: 120px;
     margin-bottom: 30px;
     @extend %flex ;  
+     & { @media screen and (max-width: 767px) {
+        width: 100% ;
+    }}
 }
 .section-tehnology__headline {
     font-weight: 700;
