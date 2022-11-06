@@ -29,6 +29,7 @@
 }
 
 .section-frend__list{ 
+ 
     @media screen and (min-width: 768px){
         display: flex;
         justify-content:space-around;  
@@ -49,4 +50,7 @@
     border-radius: 0px 0px 4px 4px;
     padding-bottom: 30px;
     background-color: var(--main-sir-color);
+    margin: auto;
+  
+  
 }

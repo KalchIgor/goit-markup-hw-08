@@ -2,6 +2,8 @@
     align-items: center;
     @extend %margin-auto;
     @extend %pading15;
+@media screen  and (max-width: 480px) {
+        width: 100%; }
 
 @media screen  and (min-width: 480px) {
     width: 480px;    
@@ -32,4 +34,12 @@
     display: block;
     border-radius: 0px;
     margin-bottom: 30px;
+}
+
+.container.footer-container {
+    
+    @media screen and (max-width: 767px) {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
