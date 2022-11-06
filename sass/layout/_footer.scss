@@ -62,10 +62,13 @@
 } 
 
 .footer-container {
-   @media screen  and (min-width: 768px) { 
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline; }
+    @media screen and (min-width: 768px){
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline; 
+
+    }
+   
 }
 
 .text__footer {
@@ -75,6 +78,9 @@
     color: var(--main-sir-color);
     margin-bottom: 20px;
    text-transform: uppercase ;
+   @media screen and (max-width: 767px){
+ 
+    margin-top: 60px;}
 }
 
 .sotsial__footer {
@@ -84,3 +90,10 @@
 .link__sots_foot{
     background-color: rgba(255, 255, 255, 0.1); 
 }
+.sotsial__list.sotsial__footer {
+    @media screen and (max-width: 767px){
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 60px;
+
+}}
