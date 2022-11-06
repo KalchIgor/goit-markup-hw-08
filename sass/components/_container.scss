@@ -5,7 +5,7 @@
 @media screen  and (max-width: 480px) {
         width: 100%; }
 
-@media screen  and (min-width: 480px) {
+@media screen  and (min-width: 480px) and (max-width: 767px) {
     width: 480px;    
 }
 @media screen  and (min-width: 768px) {
@@ -34,6 +34,9 @@
     display: block;
     border-radius: 0px;
     margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 div.container.footer-container {
