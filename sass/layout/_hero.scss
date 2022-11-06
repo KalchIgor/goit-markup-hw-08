@@ -1,5 +1,8 @@
 
 .hero { 
+  @media screen and (max-width: 767px){
+    min-width: 480px;
+  }
   max-width: 1600px;
   background-color :var(--main-fa-color);
   text-align: center;
@@ -24,9 +27,19 @@
     text-align: center;
     @extend %margin-auto;
     margin-bottom: 30px;  
+    @media screen and (max-width: 767px)
+    {
+      font-weight: 900;
+      font-size: 26px;
+      line-height: 1.61;
+      color:  var(--main-sir-color);
+      text-align: center;
+      @extend %margin-auto;
+      width: 360px;}
+    }
 }
 
-}
+
 .bot-button {
    border: 0px;
     width: 216px;

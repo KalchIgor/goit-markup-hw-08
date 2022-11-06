@@ -600,11 +600,13 @@ ul {
   color: rgba(255, 255, 255, 0.6);
   background-color: var(--main-fa-color);
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .footer-div__mail, .footer-input__mail {
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 100%;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (min-width: 768px) {
@@ -620,7 +622,7 @@ ul {
   line-height: 1.25;
   color: var(--main-sir-color);
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .footer-batton {
     display: flex;
     justify-content: space-between;
@@ -644,7 +646,7 @@ ul {
   border-radius: 4px;
   letter-spacing: 0.06em;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .button-footer__text {
     margin-left: auto;
     margin-right: auto;
@@ -843,6 +845,11 @@ a.logo.active.logo-activ {
   background-size: cover;
   outline: 1px solid black;
 }
+@media screen and (max-width: 767px) {
+  .hero {
+    min-width: 480px;
+  }
+}
 .hero-big {
   width: 700px;
   font-weight: 900;
@@ -851,6 +858,16 @@ a.logo.active.logo-activ {
   color: var(--main-sir-color);
   text-align: center;
   margin-bottom: 30px;
+}
+@media screen and (max-width: 767px) {
+  .hero-big {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.61;
+    color: var(--main-sir-color);
+    text-align: center;
+    width: 360px;
+  }
 }
 
 .bot-button {
@@ -1024,7 +1041,7 @@ a.logo.active.logo-activ {
 @media screen and (min-width: 768px) {
   .section-frend__list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
 
@@ -1103,10 +1120,11 @@ a.logo.active.logo-activ {
   margin-right: 50px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .footer-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 165px;
     align-items: baseline;
   }
 }
@@ -1124,6 +1142,11 @@ a.logo.active.logo-activ {
     margin-top: 60px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .text__footer {
+    text-align: center;
+  }
+}
 
 .sotsial__footer {
   justify-content: start;
@@ -1138,6 +1161,22 @@ a.logo.active.logo-activ {
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer__tablet {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__tablet {
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    gap: 70px;
   }
 }
 
