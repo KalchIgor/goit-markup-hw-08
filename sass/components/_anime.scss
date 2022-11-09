@@ -29,10 +29,22 @@
   
 
 .portfolio-list__img-wrap {
-    width: 370px;
+ 
     height: 294px;
     position: relative;
     overflow: hidden;
+    @media screen and (min-width: 350px) and (max-width: 767px)
+    {
+      width: 450px;
+    }
+  
+    @media screen and (min-width: 768px) and (max-width: 1199px){
+     width: 354px;
+    }
+  
+    @media screen and (min-width: 1200px){
+      width: 370px;
+    }
 }
 
 .svg__foot, .svg-foot

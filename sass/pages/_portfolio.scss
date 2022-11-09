@@ -44,3 +44,18 @@ border-left: 1px solid #EEEEEE;
 border-right:1px solid #EEEEEE ;
 }
 
+li.portfolio-list__item{
+     @media screen and (min-width: 350px) and (max-width: 767px)
+     {
+       width: 450px;
+     }
+   
+     @media screen and (min-width: 768px) and (max-width: 1199px){
+      width: 354px;
+     }
+   
+     @media screen and (min-width: 1200px){
+       width: 370px;
+     }
+}
+
