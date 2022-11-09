@@ -24,7 +24,11 @@
 }
 
 a.logo.active.logo-activ {
-  margin-right: 93px ; 
+  
    padding-top: 20px;
    padding-bottom: 24px;
+   @media screen  and (min-width: 1200px) {
+    margin-right: 93px ; 
+   }
 }
+

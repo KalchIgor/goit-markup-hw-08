@@ -739,8 +739,18 @@ ul {
   margin: 0px;
 }
 
-.header__list-two {
-  margin-left: auto;
+@media screen and (min-width: 1200px) {
+  .header__list-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header__list-two {
+    margin-left: auto;
+  }
 }
 
 .promo {
@@ -800,9 +810,28 @@ ul {
 
 .header__wrapper-q {
   display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
   justify-content: start;
+}
+@media screen and (min-width: 1200px) {
+  .header__wrapper-q {
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header__wrapper-q {
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header__list-icon {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .logo {
@@ -827,9 +856,13 @@ ul {
 }
 
 a.logo.active.logo-activ {
-  margin-right: 93px;
   padding-top: 20px;
   padding-bottom: 24px;
+}
+@media screen and (min-width: 1200px) {
+  a.logo.active.logo-activ {
+    margin-right: 93px;
+  }
 }
 
 .hero {
