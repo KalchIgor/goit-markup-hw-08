@@ -3,8 +3,15 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 1.7;
-    @extend %flex ;
+    
     margin: 0px;
+}
+.header__list {
+    @extend %flex ;
+}
+.header__list-two{
+    @media screen  and (min-width: 1200px)
+    { @extend %flex ;}
 }
 
 .header__list-two

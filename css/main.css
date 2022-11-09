@@ -266,7 +266,7 @@ summary {
   --main-icon-color: #AFB1B8;
 }
 
-.box-p, .portfolio-list, .items, .sotsial__list, .link__sots, .wrup__ul, .menu-list__item, .menu-list__link, .menu-list__icon, .menu-list, .section-tehnology__svg, .section-item__wraper, .header__list, .header__list-two, .menu-list__svg, .button-footer__text, .modal-close, .button-form, .privacy-icon, .privacy-wrapp, .privacy {
+.box-p, .portfolio-list, .items, .sotsial__list, .link__sots, .wrup__ul, .menu-list__item, .menu-list__link, .menu-list__icon, .menu-list, .section-tehnology__svg, .section-item__wraper, .header__list, .menu-list__svg, .button-footer__text, .modal-close, .button-form, .privacy-icon, .privacy-wrapp, .privacy {
   display: flex;
   align-items: center;
   justify-content: center;
