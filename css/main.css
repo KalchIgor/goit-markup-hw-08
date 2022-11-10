@@ -615,6 +615,11 @@ ul {
     gap: 12px;
   }
 }
+@media screen and (max-width: 767px) {
+  .footer-div__mail, .footer-input__mail {
+    width: 100%;
+  }
+}
 
 .footer-batton {
   font-weight: 400;
