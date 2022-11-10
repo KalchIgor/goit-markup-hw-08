@@ -698,7 +698,7 @@ ul {
 }
 @media screen and (min-width: 1200px) {
   .portfolio-list__img-wrap {
-    max-width: 370px;
+    width: 370px;
   }
 }
 
@@ -1454,7 +1454,7 @@ a.logo.active.logo-activ {
 }
 @media screen and (min-width: 1200px) {
   li.portfolio-list__item {
-    max-width: 370px;
+    width: 370px;
   }
 }
 
