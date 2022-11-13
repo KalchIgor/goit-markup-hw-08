@@ -23,6 +23,7 @@
 .menu-list__link
 { 
     @media screen and (max-width: 767px)
+    
     {
         width:  calc((100% - 60px ) / 2);
       margin-bottom: 30px;
