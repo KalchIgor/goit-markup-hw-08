@@ -30,10 +30,7 @@
    
     text-decoration: none;
   } 
-  .menu .link:hover,
-  .menu .link:focus {
-    text-decoration: underline;
-  }
+ 
   .menu-toggle {
     min-height: 40px;
     min-width: 40px;
@@ -97,10 +94,7 @@
     line-height: 1.22;
     letter-spacing: 0.02em;
     color:  var(--main-one-color);
-    height: 22px;
-    margin-bottom: 32px;
-    border-right:  1px solid rgba(33, 33, 33, 0.2);
-    padding-right: 10px;
+   
    
 }
 .menu-mobile__list-tel {
@@ -137,6 +131,7 @@
 .menu-mobile__link-sots {
     display: flex;
     gap: 10px;
+   
 }
 
 .menu-mobile__wrappper-mail {
@@ -165,3 +160,20 @@
 .blue__link-navigation , .menu-mobile__sots {
   color: var(--main-one-color);
 }
+
+.menu-mobile__sots {
+  height: 22px;
+  margin-bottom: 32px;
+  border-right:  1px solid rgba(33, 33, 33, 0.2);
+  padding-right: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+
+.menu-mobile__sots.sots-pading {
+  border: 0px;
+  padding: 0;
+}
+
