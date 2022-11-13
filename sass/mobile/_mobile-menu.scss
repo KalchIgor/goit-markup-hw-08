@@ -146,6 +146,7 @@
 .menu-container {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .mobile-menu__navigation-studi {
@@ -163,7 +164,4 @@
 
 .blue__link-navigation , .menu-mobile__sots {
   color: var(--main-one-color);
-}
-.mobile-menu__wraper {
- margin-bottom: auto;
 }
