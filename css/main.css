@@ -266,13 +266,13 @@ summary {
   --main-icon-color: #AFB1B8;
 }
 
-.box-p, .portfolio-list, .items, .sotsial__list, .link__sots, .wrup__ul, .menu-list__item, .menu-list__link, .menu-list__icon, .menu-list, .section-tehnology__svg, .section-item__wraper, .header__list, .menu-list__svg, .button-footer__text, .modal-close, .button-form, .privacy-icon, .privacy-wrapp, .privacy {
+.box-p, .portfolio-list, .sotsial__list, .link__sots, .wrup__ul, .menu-list__item, .menu-list__link, .menu-list__icon, .menu-list, .section-tehnology__svg, .section-item__wraper, .header__list, .menu-list__svg, .button-footer__text, .modal-close, .button-form, .privacy-icon, .privacy-wrapp, .privacy {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.box-p, .portfolio-list, .items, .hero, .button-form, .form-title, .container {
+.box-p, .portfolio-list, .hero, .button-form, .form-title, .container {
   margin-left: auto;
   margin-right: auto;
 }
@@ -1416,9 +1416,25 @@ a.logo.active.logo-activ {
   width: 130px;
 }
 
-.items {
-  margin-top: 100px;
-  margin-bottom: 66px;
+@media screen and (min-width: 768px) {
+  .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 66px;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 767px) {
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 66px;
+    margin-bottom: 40px;
+  }
 }
 
 .portfolio-list__widget {
@@ -1621,9 +1637,12 @@ a.logo.active.logo-activ {
   justify-content: space-between;
 }
 
+.nav-blue {
+  color: #2196F3;
+}
+
 .mobile-menu__navigation-studi {
   margin-bottom: 36px;
-  color: #2196F3;
 }
 
 .mobile-menu__navigation-port {

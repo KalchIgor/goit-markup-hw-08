@@ -45,9 +45,24 @@
 }
 
 
-.items  {
-    @extend %flex ;
-    @extend %margin-auto;
+.items  { 
+    
+    @media screen and (min-width:768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
     margin-bottom: 66px; 
+
+    }
+   
+    @media screen and (min-width: 350px) and (max-width: 767px) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 66px;
+        margin-bottom: 40px;
+    }
 }
