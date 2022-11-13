@@ -1496,7 +1496,6 @@ a.logo.active.logo-activ {
   display: flex;
   padding: 0;
   margin: 0;
-  list-style: none;
 }
 
 @media (max-width: 767px) {
@@ -1505,7 +1504,6 @@ a.logo.active.logo-activ {
   }
 }
 .menu .link {
-  color: inherit;
   text-decoration: none;
 }
 
