@@ -1603,6 +1603,11 @@ a.logo.active.logo-activ {
 }
 
 .mobile-menu__navigation {
+  display: block;
+}
+
+.link-navigation {
+  display: block;
   font-weight: 500;
   font-size: 46px;
   line-height: 1.17;
@@ -1635,6 +1640,10 @@ a.logo.active.logo-activ {
 
 .menu-mobile__list-tel, .menu-mobile__list-mail {
   display: block;
+}
+
+.blue__link-navigation, .menu-mobile__sots {
+  color: var(--main-one-color);
 }
 
 /*

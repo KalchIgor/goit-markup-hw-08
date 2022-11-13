@@ -104,26 +104,32 @@
    
 }
 .menu-mobile__list-tel {
-   /* font-weight: 500;
+   font-weight: 500;
     font-size: 34px;
     line-height: 1.15;
-    letter-spacing: 0.02em;*/
+    letter-spacing: 0.02em;
     color: var( --main-one-color);
     margin-bottom: 32px;
 }
 
 .menu-mobile__list-mail {
-   /* font-weight: 500;
+  font-weight: 500;
     font-size: 24px;
     line-height: 1.17;
-    letter-spacing: 0.02em;*/
+    letter-spacing: 0.02em;
     color: var( --main-to-color);
 }
 
 .mobile-menu__navigation{
-   /* font-weight: 500;
+  display: block;
+
+
+}
+.link-navigation {
+  display: block;
+  font-weight: 500;
     font-size: 46px;
-    line-height: 1.17;*/
+    line-height: 1.17;
     letter-spacing: 0.02em;
     color: #212121;
 
@@ -153,4 +159,8 @@
 
 .menu-mobile__list-tel , .menu-mobile__list-mail {
   display: block;
+}
+
+.blue__link-navigation , .menu-mobile__sots {
+  color: var(--main-one-color);
 }
