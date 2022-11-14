@@ -9,6 +9,11 @@
     letter-spacing: 0.03em;
     margin-bottom: 10px;
     color: var(--main-se-color);
+    @media screen and (max-width: 1199px) {
+      font-size: 20px;
+      line-height: 1.5;
+      
+    }
   }
   
   .label {
@@ -124,6 +129,11 @@
     line-height: 1.7;
     margin-left: 9px;
     color: var(--main-to-color);
+    @media screen and (max-width: 1199px) {
+      font-size: 12px;
+      line-height: 1.7;
+      letter-spacing: 0.03em;
+    }
   }
  
    .privacy-link {
