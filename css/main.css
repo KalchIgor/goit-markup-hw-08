@@ -1196,6 +1196,10 @@ a.logo.active.logo-activ {
   display: block;
 }
 
+source {
+  display: block;
+}
+
 .footer {
   box-sizing: border-box;
   background: var(--main-fa-color);
