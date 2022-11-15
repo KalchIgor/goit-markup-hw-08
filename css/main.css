@@ -1193,6 +1193,7 @@ a.logo.active.logo-activ {
 
 .section-frend__img {
   width: 100%;
+  display: block;
 }
 
 .footer {
