@@ -25,15 +25,21 @@
     font-size: 16px;
     line-height: 1.17;
     color:  var(--main-to-color);
-    margin-bottom: 16pt;
+    padding-bottom: 16px;
 }
 
 .section-frend__list{ 
+    @media screen and (min-width:768px) and (max-width:1200px){
+        display: flex;
+      flex-wrap: wrap; 
+      justify-content: center;
+      gap: 30px
+      ;
+}
  
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 1200px) {
         display: flex;
         justify-content:space-between;  
-    
 }
 
     margin: 0px;
@@ -50,7 +56,7 @@
     border-radius: 0px 0px 4px 4px;
     padding-bottom: 30px;
     background-color: var(--main-sir-color);
-    margin: auto;
+    justify-content: center;
   
 }
 

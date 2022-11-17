@@ -16,7 +16,8 @@
 
 .portfolio-list { 
      @extend %flex ; 
-     margin-bottom: 66px;  
+  
+   
       flex-wrap: wrap; 
       justify-content: space-between;
       @extend %margin-auto;
@@ -25,6 +26,14 @@
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           border-radius: 4px;
      }
+     @media screen and (min-width: 350px) and (max-width: 1199px)
+     {
+          padding-bottom: 60px;
+     }
+     @media screen and (min-width: 1200px) {
+          padding-bottom: 94px;
+     }
+
 }
 
 
@@ -44,8 +53,10 @@ border-left: 1px solid #EEEEEE;
 border-right:1px solid #EEEEEE ;
 }
 
-li.portfolio-list__item{
+
+li.portfolio-list__item {
      @media screen and (min-width: 350px) and (max-width: 767px)
+
      {
        width: 450px;
      }
@@ -58,4 +69,5 @@ li.portfolio-list__item{
        width: 370px;
      }
 }
+
 
