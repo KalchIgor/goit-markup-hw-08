@@ -345,7 +345,7 @@ ul {
     width: 480px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .container {
     width: 768px;
   }
@@ -372,6 +372,10 @@ ul {
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
+}
+
+source {
+  display: block;
 }
 
 @media screen and (max-width: 767px) {
@@ -1099,6 +1103,11 @@ a.logo.active.logo-activ {
   font-size: 14px;
   line-height: 1.17;
   color: var(--main-se-color);
+}
+@media screen and (max-width: 767px) {
+  .section-tehnology__headline {
+    text-align: center;
+  }
 }
 
 .section-tehnology__text {

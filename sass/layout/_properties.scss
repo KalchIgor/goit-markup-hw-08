@@ -67,6 +67,9 @@
     font-size: 14px;
     line-height: 1.17;
     color: var(--main-se-color);
+    @media screen and (max-width:767px) {
+        text-align: center;
+    }
 }
 .section-tehnology__text {
     font-weight: 400;
