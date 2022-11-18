@@ -68,7 +68,7 @@
   text-align: center;
   padding-bottom: 200px;
   padding-top: 200px;
-  @extend %margin-auto;
+   margin: 0 auto;
   justify-content: center;
   /*background-image:linear-gradient(rgba(47, 48, 58, 0.4)
    ,rgba(47, 48, 58, 0.5)
@@ -88,7 +88,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;  
-    @media screen and (max-width: 767px)
+    @media screen and (max-width: 1199px)
     {
       font-weight: 900;
       font-size: 26px;
