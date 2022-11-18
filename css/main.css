@@ -1237,6 +1237,13 @@ a.logo.active.logo-activ {
   background-color: var(--main-sir-color);
   justify-content: center;
 }
+@media screen and (min-width: 768px) {
+  .section-frend__link {
+    width: calc((100% - 60px) / 2);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+  }
+}
 
 .section-frend__img {
   display: block;
