@@ -963,7 +963,7 @@ a.logo.active.logo-activ {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.5)), url(../images/hero/hero-tab1x.jpg);
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1600px) {
+@media screen and (min-width: 769px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.5)), url(../images/hero/hero-1x.jpg);
   }
