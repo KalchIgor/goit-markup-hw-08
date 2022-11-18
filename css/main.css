@@ -1239,8 +1239,25 @@ a.logo.active.logo-activ {
 }
 
 .section-frend__img {
-  width: 100%;
   display: block;
+}
+@media screen and (max-width: 767px) {
+  .section-frend__img {
+    max-width: 450px;
+    max-height: 460px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-frend__img {
+    max-width: 354px;
+    max-height: 374px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-frend__img {
+    max-width: 270px;
+    max-height: 260px;
+  }
 }
 
 source {

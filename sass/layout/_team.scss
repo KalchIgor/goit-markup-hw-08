@@ -61,7 +61,20 @@
 }
 
 .section-frend__img {
-    width: 100%;
+    @media screen and (max-width:767px) {
+       max-width: 450px;
+       max-height: 460px;
+    }
+    @media screen and (min-width:768px) {
+        max-width: 354px;
+        max-height: 374px;
+     }
+     @media screen and (min-width:1200px) {
+        max-width: 270px;
+        max-height: 260px;
+     }
+
+  
     display: block;
 }
 source {
