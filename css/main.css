@@ -598,6 +598,11 @@ source {
     max-width: 450px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .modal {
+    max-width: 528px;
+  }
+}
 
 .modal-close {
   position: absolute;
@@ -949,7 +954,7 @@ a.logo.active.logo-activ {
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    max-width: 2000px;
+    max-width: 1600px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -983,7 +988,7 @@ a.logo.active.logo-activ {
   }
 }
 .hero-big {
-  width: 700px;
+  /* width: 700px;*/
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -1000,9 +1005,12 @@ a.logo.active.logo-activ {
     line-height: 1.61;
     color: var(--main-sir-color);
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 360px;
+    max-width: 360px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero-big {
+    width: 696px;
   }
 }
 
